@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class=".container">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg bg-light fixed-top">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">Navbar</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://img.freepik.com/free-vector/abstract-website-banner-with-modern-shapes_1361-1738.jpg?w=2000" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://kinsta.com/wp-content/uploads/2020/06/banner-sizes-1024x512.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://staticg.sportskeeda.com/editor/2022/07/04d33-16589106568939-1920.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, dicta.</div>
+            <div class="col-lg-6"><div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div></div>
+              
+        </div>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A rem voluptatibus dignissimos beatae repellat sint facere quibusdam eligendi, rerum, explicabo reprehenderit et voluptatem esse cumque itaque, earum aut corrupti dolorem alias. Aut culpa incidunt dolore provident. Nemo perspiciatis error perferendis placeat ipsa asperiores cumque accusamus vero doloribus labore! Ut illo omnis, et dolorem, ab nihil aspernatur ea quisquam voluptatem id repellat non provident explicabo sunt inventore vitae cupiditate soluta placeat ipsam aliquid laboriosam est eveniet dolore deleniti. Aut, nam laudantium? Obcaecati qui amet, ipsa quae adipisci nobis corporis voluptatum veritatis accusamus totam eos voluptates animi in architecto. Ut perspiciatis suscipit reprehenderit quasi ab, recusandae molestiae laborum iste repellat optio et magni quod sequi! Enim fuga quas architecto maxime at ipsum hic, commodi quos officiis accusantium quibusdam accusamus doloremque laudantium cupiditate vel esse quo autem soluta sapiente beatae atque doloribus voluptatem fugit consequatur. Quibusdam voluptates perspiciatis quia! Molestias maiores ducimus eligendi fugit natus quasi voluptatem! Nam consectetur nobis consequuntur? At aut provident omnis debitis tenetur! Sapiente nobis facilis qui debitis nesciunt mollitia, corporis dolor eveniet officiis quisquam et minima voluptatem adipisci voluptates nostrum doloremque modi delectus reiciendis inventore exercitationem deleniti? Distinctio, accusamus magnam laboriosam omnis veniam esse, nihil assumenda fuga id, amet doloribus numquam? Quas autem dolores asperiores magnam neque error odio dicta fugiat adipisci, in quisquam eaque consequatur laudantium fugit aspernatur quo omnis, nobis atque nemo dolor. Eum, totam. Odio accusantium perspiciatis non eligendi ratione perferendis exercitationem dolorem magni ducimus ipsum ut veniam expedita explicabo, repellat sequi commodi cupiditate, quo qui! Porro, quo, cumque modi nostrum, consectetur cum assumenda nesciunt perferendis dicta aliquam officia vero harum eaque laborum? Corporis, exercitationem quod. Iusto praesentium corporis ea eius autem officiis dolores laborum vero ullam ex eaque aspernatur eum tempora, ab laboriosam iure vitae quos velit blanditiis earum at debitis doloremque omnis. Officia dolorum nemo ea ut officiis praesentium laboriosam maxime qui, debitis sit. Non totam mollitia ducimus repellendus quae molestiae inventore quasi ipsam a recusandae aliquam numquam distinctio harum, consequatur, possimus perspiciatis cumque rerum? Tenetur perspiciatis minima error vel, veniam earum, nulla distinctio totam iure quod provident inventore molestias incidunt tempora vitae eaque nisi. Consectetur rem sint ea consequuntur, recusandae, quo id iure expedita suscipit laborum dolor repellendus totam optio provident cumque rerum officiis laboriosam. Voluptates dignissimos recusandae, ea placeat praesentium error, obcaecati veniam eum aperiam blanditiis itaque magnam, totam expedita beatae minus libero porro fugit. Neque officiis est architecto similique maxime magni, sit esse, vero eligendi adipisci aliquid, consequatur nobis quas ipsa. Maiores culpa repellat illo perspiciatis adipisci, libero at voluptatem. Tempora nemo in fuga, ullam hic eveniet accusantium atque saepe earum quod reiciendis iste quidem voluptate officia rerum doloremque voluptatem nesciunt nam veniam aspernatur totam! Repellendus, similique praesentium totam temporibus aut ipsum provident nemo sapiente delectus voluptas quia sit libero porro voluptate voluptates iusto inventore soluta explicabo dolorum esse. Odio perferendis expedita aliquam eum, est repudiandae ducimus ipsum beatae quo neque, exercitationem a aspernatur aperiam placeat dolorem. Quam eos, doloremque culpa deleniti quia animi voluptate sapiente inventore illo placeat iusto maiores qui, vitae eligendi voluptatum amet mollitia iste itaque rem dolorum non aliquam voluptatem doloribus. Voluptates nostrum, eaque praesentium quo excepturi magni quia natus rerum illo consectetur optio exercitationem omnis eveniet repudiandae maiores architecto repellendus temporibus quidem nihil. Quod alias dolore illum nostrum fuga minima aliquam suscipit quidem ducimus, earum reprehenderit tempore cupiditate maiores est reiciendis perspiciatis atque debitis incidunt ullam ipsum quasi iste iure. Illum, temporibus! Esse corporis autem expedita minus neque quisquam ipsum repudiandae tempore hic non voluptatum distinctio debitis quod a molestiae commodi, nemo deleniti ipsa. Natus commodi, laborum nobis fugit minus ratione voluptates omnis. Eum, neque. Quia similique eveniet id alias officia vitae non ad minus, repudiandae nostrum dolores eius, culpa molestiae qui illo, reprehenderit quam facilis molestias natus. Amet molestiae molestias provident excepturi enim? Perferendis officiis consequuntur deleniti animi illum blanditiis, tempore consequatur aspernatur non veritatis temporibus placeat, impedit soluta facere laboriosam iusto. Excepturi eos nobis, accusantium vel quos laborum voluptates adipisci explicabo harum repellat molestias tempora repudiandae rerum odit distinctio commodi. Odit vel deserunt numquam accusamus sapiente veniam dolores at. Iste aliquam, maxime voluptatum, quis obcaecati soluta excepturi optio est mollitia officiis assumenda provident distinctio? Obcaecati, officiis nemo! Tenetur, dolores. Voluptas ipsam et totam fugiat optio repellat vitae necessitatibus aspernatur, dolorum dolore? Odio a tempore porro repellat fugit maxime quam, ipsa nesciunt eaque, amet ratione culpa praesentium distinctio perferendis iste aliquid suscipit, voluptatem quo ut ad cum. Totam consectetur voluptates voluptatibus atque sapiente sequi accusamus, suscipit, reiciendis possimus beatae eaque? Vitae in perspiciatis ipsam sequi ad ducimus minus perferendis quos corrupti! Molestias, culpa molestiae! Repellendus aperiam, facilis aspernatur temporibus corporis culpa fuga atque earum minus consequatur exercitationem iste pariatur quos deserunt deleniti accusamus. Modi ipsam ut recusandae molestiae. Possimus molestiae excepturi sunt sequi hic architecto temporibus unde nihil, quae quibusdam debitis! Itaque similique quas laborum laboriosam. Eligendi asperiores doloremque ut fuga, quidem quam rem. Saepe aliquid consequatur ex ab, commodi consectetur ratione. Cumque sequi ipsum illo numquam deserunt vitae, quae odio! Ea, excepturi nemo ipsam quod, inventore facere nisi adipisci rerum magni sit vero itaque ducimus possimus delectus minus. Quas beatae quibusdam animi repellat explicabo sequi perspiciatis unde perferendis nostrum sint natus obcaecati, praesentium tenetur voluptatem porro, odio assumenda doloribus ad, consequuntur nemo fugiat consequatur deleniti. Omnis maiores neque asperiores autem amet eaque, error alias natus placeat architecto consequatur est sunt odio quos, ipsa cum voluptate sapiente commodi ducimus sequi soluta. Atque, ex! Laboriosam aut necessitatibus, veniam eum exercitationem odio harum non, debitis impedit, dolorum dicta asperiores consectetur commodi distinctio consequuntur voluptate odit corporis quam in inventore perspiciatis ullam ducimus dolore? Dicta quae nam beatae tempora doloremque voluptas, ab ratione enim tempore dolore, adipisci, modi repellendus ad inventore. Id sed deleniti ratione natus et, voluptatum odit dolore voluptate laboriosam eveniet totam similique placeat magnam tenetur hic eaque ipsum maxime expedita debitis! Eveniet voluptates sint iste sed et ad consequuntur repellendus aspernatur autem molestiae? Illum sed officia aut debitis consequatur ipsam provident nostrum tempore, voluptate, quam, voluptas voluptates nobis voluptatem corrupti libero illo culpa dicta.</h1>
+        
+    </div>
+    
+    
+</body>
+</html>

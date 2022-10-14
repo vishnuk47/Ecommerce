@@ -1,0 +1,14 @@
+.vo{
+    color: lawngreen;
+    font-style: italic;
+}
+#firstdiv{
+    color: blue;
+    background-color: black;
+    border: 2px;
+}
+#seconddiv{
+    color: aliceblue;
+    background-color: black;
+}
+

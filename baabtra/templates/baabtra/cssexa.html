@@ -1,0 +1,65 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            color: black;
+            border: 2px;
+            border-style: dotted;
+            width: 200px;
+            height: 200px;
+            overflow: visible;
+            /* overflow: hidden; */
+            /* overflow: scroll; */
+            overflow: auto;
+            
+        }
+        #vis{
+            color: yellow;
+            font-size: larger;
+        }
+        #no{
+            color: brown;
+            font-size: 3cm;
+            text-decoration: double;
+            font-display: inherit;
+            font-style: oblique;
+            font-style: italic;
+            
+        }
+        a{
+            display: block;
+        }
+        p{
+            display: inline;
+            
+        }
+        /* img{
+            opacity: 0.8;
+        } */
+        img:hover{opacity: 0.2;}
+    </style>
+</head>
+<body>
+    <a href="">hello</a>
+    <a href="">lorem</a>
+    <a href="">Lorem, ipsum.</a>
+    <a href="">Lorem, ipsum dolor.</a>
+    <div>
+    <h1>THIS IS HEADING</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut facilis, officiis placeat ipsum, accusamus, excepturi aspernatur magnam quam rem laboriosam odio? Magnam numquam necessitatibus repellendus beatae animi illo non saepe omnis facere, quaerat culpa ad similique nulla veniam ratione quis autem ipsa dolore pariatur illum. Repellendus perspiciatis provident, corporis voluptas tempora, asperiores aperiam nulla illum, dicta nostrum laudantium nesciunt non. Earum perspiciatis labore minima at totam velit. Accusamus aperiam, cumque illum excepturi ratione velit eos culpa voluptas sit omnis suscipit quidem beatae ducimus, laudantium non sint recusandae ullam optio pariatur dolores quis dignissimos. Natus iusto consequuntur consectetur vitae nihil voluptatem?</p>
+    </div>
+    <p id="no">this is paragraph</p>
+    <h1 id="vis">this is another heading</h1>
+    <p>helooo</p>
+    <p>Lorem, ipsum dolor.</p>
+    <p>Lorem, ipsum dolor.</p>
+    <p>Lorem ipsum dolor sit.</p>
+    <img src="{% static 'images/tree.jpg'%}" alt="">
+</body>
+</html>

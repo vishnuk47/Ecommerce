@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+.body1{
+    position: relative;
+    background:rgb(38, 59, 94) ;
+    width: 100%;
+    height: 110px;
+    margin: 0%;
+    padding: 0%;
+}
+.body2{
+    background:rgb(38, 59, 94) ;
+    width: 100%;
+    height: 1000px;
+    margin: 0%;
+    padding: 10px;
+    display: block;
+}
+
+#logo{
+    max-width: 15%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    float: right;
+    padding-right: 60px;
+    padding-top: 30px;
+}
+li{
+    padding-right: 70px;
+
+}
+.for{
+    color: white;
+    font-size: 100%;
+}
+button{
+    background-color:#FF1949;
+    color:white;
+    border-radius: 2px;
+    border: 0px;
+    width: 120px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 16px;
+    
+    
+}
+.firstp{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: opx;
+    margin-inline-end: 0px;
+    padding-left: 50px;
+    font-size: 20px;
+    line-height: 38px;
+}
+.second{
+    color: white;
+    padding-left: 50px;
+    font-size: 32px;
+    font-family: "Quicksand",sans-serif;
+    font-weight: 700;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.first{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 50px;
+    display: inline-block ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#baab{
+   float: right;
+   padding-bottom: 100px;
+}

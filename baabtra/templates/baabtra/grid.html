@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sixth{
+            background-color: aqua;
+            border: 2px black solid;
+            height: 100vh;
+            color: white;
+            display: grid;
+            /* grid-template-columns: 300px 100px 350px 400px; */
+            /* grid-template-columns: auto auto 200px auto; */
+            /* grid-template-columns: 1fr 4fr 3fr 2fr; */
+            /* grid-template-columns: repeat(3,1fr 2fr 3fr); */
+            grid-template-columns: repeat(4,1fr);
+            /* grid-template-rows: 400px 600px; */
+            gap: 20px;
+        }
+        .sixth div{
+            background-color: blue;
+            border: 3px yellowgreen solid;
+
+        }
+        .first{
+            /* grid-column: 1/3;
+            grid-row-start: 3;
+            grid-row-end: 1; */
+            /* grid-column: span 3;
+            grid-row: span 2; */
+            /* grid-column-start: 2; */
+            /* grid-column-end: 3 ; */
+        }
+    </style>
+</head>
+<body>
+    <h1>Grid</h1>
+    <div class="sixth">
+        <div class="first">
+            <h1>first div</h1>
+        </div>
+        <div class="second"><h2>second div</h2></div>
+        <!-- <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolore delectus vel reprehenderit veritatis! Animi pariatur consectetur ducimus deleniti enim ipsa autem quas harum error iure. Blanditiis eveniet quod eum dolor omnis commodi, temporibus provident reprehenderit enim ducimus! Voluptate voluptates officiis aspernatur, tenetur consequatur ea. Dolorum nostrum sunt maxime corrupti numquam. Quasi perferendis debitis quas eaque necessitatibus aliquam, quisquam amet! Assumenda et exercitationem eveniet, inventore fugit officiis accusantium veritatis eius quas rerum minima temporibus sapiente natus voluptas quam consequatur, distinctio facere porro! Explicabo nobis officia atque natus. Excepturi id, distinctio culpa quisquam provident quia obcaecati cupiditate praesentium amet ipsum harum!</p></div> -->
+        <div class="third"><h3>third div</h3></div>
+        <div class="fourth"><h4>fourth div</h4></div>
+        <div class="fifth"><h5>fifth div</h5></div>
+    </div>
+</body>
+</html>

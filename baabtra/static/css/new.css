@@ -1,0 +1,19 @@
+.vo{
+    color: brown;
+}
+#no{
+    background-color: aqua;
+    height: 400px;
+    width: 2000px;
+    /* position: absolute; */
+    /* right: 0;
+    bottom: 0; */
+    /* left: 0; */
+    /* position: relative;
+    left: 600px;
+    top: 500px; */
+    position: fixed;
+}
+h2{
+    border: 3px;
+}

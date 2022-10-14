@@ -1,0 +1,65 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/example.css' %}">
+    <style>
+        p{
+            color: aqua;
+        }
+        
+        .vk{
+            color: chocolate;
+        }
+        #not{
+            color:darkgreen;
+        }
+        h1{
+            color:bisque;
+           
+        }
+        #exo{
+            color: rgb(243, 243, 10);
+            background-color: cornsilk;
+        }
+        input[type=button]{
+            border: 2ch;
+            background-color: blueviolet;
+            box-sizing: border-box;
+        }
+        div,#vk,p,h2{
+            font-family: 'Times New Roman', Times, serif;
+            font: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: brown; font-family: 'Times New Roman', Times, serif;font-size: 1000%;">hello</h1>
+    <p class="vk" id="not">Lorem ipsum dolor sit.</p>
+    <p>Lorem ipsum dolor sit.</p>
+    <p class="vk">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <span class="vo">hello THIS IS CSS</span>
+    <h2 class="vo">this <span>heell</span> is CSS</h2>
+    <p id="exo">This is to identify its a id </p>
+    <div id="firstdiv">
+        <h1>ths is inside the div tag</h1>
+        <p id="fistdiv">Lorem ipsum dolor sit amet consectetur.inside first div</p>
+    </div>
+    <div id="seconddiv">
+        <h1>THIS IS INSDIE THE SECOND DIV</h1>
+        <P>this is inside the second div</P>
+    </div>
+    <div>
+        <h1>THIS IS INSIDE THE THIRD DIV</h1>
+        <P>THIS IS  INSIDE THE THIRD DIV</P>
+    </div>
+    <input type="button" value="login">
+    <h1>ths is heading</h1>
+    <h2>this is heading 2</h2>
+    <p>t</p>
+</body>
+</html>
