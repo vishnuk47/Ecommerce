@@ -1,0 +1,1 @@
+web: gunicorn scgool_erp.wsgi --log-file -
