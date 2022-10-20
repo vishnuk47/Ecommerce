@@ -1,1 +1,1 @@
-web: gunicorn scgool_erp.wsgi --log-file -
+web: gunicorn school_erp.wsgi --log-file -
